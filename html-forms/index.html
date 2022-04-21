@@ -13,14 +13,14 @@
       <div>
         <label for="email">Email</label>
         <div>
-          <input type="text" name="email" />
+          <input type="email" name="email" />
         </div>
       </div>
       <div>
-        <label>Why is coding cool?</label>
+        <label for="reasons">Why is coding cool?</label>
         <div>
           <select name="reasons">
-            <option value="choose">Select an option</option>
+            <option value="SelectOption">Select an option</option>
             <option value="interesting">Because it's interesting</option>
             <option value="fun">Because it's fun</option>
             <option value="powerful">Because it's powerful</option>
@@ -28,27 +28,27 @@
         </div>
       </div>
       <div>
-        <label>Favorite Language (choose one)</label>
+        <label for="language">Favorite Language (choose one)</label>
         <div>
-          <input type="radio" name="language" value="HTML" /> HTML
-          <input type="radio" name="language" value="CSS" /> CSS
-          <input type="radio" name="language" value="JS" /> JavaScript
+          <label><input type="radio" name="language" value="HTML" /> HTML</label>
+          <label><input type="radio" name="language" value="CSS" /> CSS</label>
+          <label><input type="radio" name="language" value="JS" /> JavaScript</label>
         </div>
       </div>
       <div>
-        <label>Would you like to sign up for more information?</label>
+        <label for="signup">Would you like to sign up for more information?</label>
         <div>
           <input type="checkbox" name="signup" value="yes" /> Sign me up!
         </div>
       </div>
       <div>
-        <label>Comments</label>
+        <label for="comments">Comments</label>
         <div>
           <textarea name="comments" cols="25" rows="10"></textarea>
         </div>
       </div>
       <div>
-        <button>Submit</button>
+        <button type="submit" value="Submit">Submit</button>
       </div>
     </form>
   </body>
